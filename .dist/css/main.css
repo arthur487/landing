@@ -14,9 +14,11 @@
   margin-top: 6vw;
   border: solid 3px black;
   margin-bottom: 5px;
+  box-shadow: 20px 20px 10px black;
 }
 
 .hero-content button {
+  margin-top: 50px;
   margin-left: 27vw;
   padding: 15px;
   width: 200px;
@@ -28,6 +30,7 @@
 
 .hero-content button:hover {
   background-color: #cac8c8;
+  cursor: pointer;
 }
 
 .hero-header {
@@ -90,26 +93,22 @@ header li {
   color: #fff;
 }
 
-.Tickets {
-  max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.Tickets li {
-  margin-left: 55px;
-  list-style: none;
+#success {
+  margin-left: 90px;
+  background-color: #a5a2a2;
   padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   color: #fff;
-  background-color: #cac8c8;
   display: none;
+  box-shadow: 10px 10px 5px black;
 }
 
-.Tickets li.active {
-  margin-left: 55px;
-  list-style: none;
-  padding: 50px;
-  color: #fff;
-  background-color: #cac8c8;
-  display: block;
+#form-button {
+  background-color: Black;
+}
+
+#form-button:hover {
+  background-color: #454545;
+  cursor: pointer;
 }

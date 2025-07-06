@@ -1,8 +1,9 @@
-function toggleVisibility() {
-    var element = document.getElementById('#Toggle')
-    if (element.style.display === "none") {
-        element.style.display = "block"; 
-    } else {
-        element.style.display = "none";
-    }
-}
+$(document).ready(function() {
+    $('#Slide-down').click(function() {
+        $('#success').slideDown()
+    })
+
+    $('form').on('submit', function(e) {
+        e.preventDefault();
+    })
+})
